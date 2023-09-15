@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.background-img video {
+    width: 1263px;
+}
+
+.logo img {
+    border-radius: 50%;
+    background: transparent;
+    padding: 1.3px;
+    left: 35px;
+    position: sticky;
+    width: 6.3vw;
+}
+
+.logoName p {
+    top: 30px;
+    left: 151px;
+    font-family: 'Rubik Iso', cursive;
+    color: brown;
+    position: absolute;
+}
+
+header {
+    /* background-color: #4f0; */
+    position: absolute;
+    top: 7px;
+    width: 100%;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 11.3px;
+    left: 24.3%;
+    max-height: 61.9px;
+    backdrop-filter: blur(2px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+    width: 600px;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.search-bar button img {
+
+    width: 25px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 56.6px;
+
+    /* background: #58629b; */
+    cursor: pointer;
+    position: absolute;
+    height: 53.7px;
+    left: 90%;
+    top: 7.9%;
+    color: white;
+    background: transparent;
+    font-size: 36px;
+}
+
+
+.link-box{
+
+ 
+  /* background-color: red; */
+padding-left: 5px;
+}
+.link-bar{
+    position: absolute;
+    top: 167px;
+    left: 11px;
+    display: flex;
+}
+.link-back-background{
+    width: 91px;
+    height: 84px;
+    backdrop-filter: blur(1px) saturate(180%);
+    color: white;
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 33%;
+}
+#Youtube{
+    width: 62px;
+  border-radius: 34%;
+}
+#Text-Youtube{
+    color: #ffd700e5;
+}
+#ChatGpt{
+    width: 52px;
+  height: 45px;
+  border-radius: 27%;
+}
+#Text-ChatGpt{
+    color: #19cb9f;
+}
+#Linkedin{
+width: 58px;
+  height: 44px;
+  border-radius: 22%;}
+#Text-Linkedin{
+    color: #0094ff;
+}
+#Text-MaxFun{
+    color: #d168d8;
+}
+#MaxFun{
+    width: 63px;
+  height: 49px;
+  border-radius: 18%;
+}
+#GitHub{
+    width: 60px;
+    height: 49px;
+    border-radius: 18%;
+}
+#Text-GitHub{
+    color: #7d7b7b;
+}
+#Text-Ned-Update{
+    color: #d168d8;
+    font-size: 14px;
+}
+#Ned-Update{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+#Text-PortFolio{
+    color: #d168d8;
+}
+#PortFolio{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+#Text-Timetable{
+    color: #d168d8;
+}
+#Timetable{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+
+#Text-GCR span{
+    color: #d168d8;
+    position: absolute;
+    top: 51px;
+    left: 15px;
+}
+#GCR{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+#Text-Portal{
+    color: #d168d8;
+}
+#Portal{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+#Text-Weather{
+    color: #d168d8;
+}
+#Weather{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+#Text-Samma-News{
+    color: #d168d8;
+    font-size: 12px;
+}
+#Samma-News{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+#Text-ABC-News{
+    color: #d168d8;
+}
+#ABC-News{
+    width: 65px;
+    height: 48px;
+    border-radius: 18%;    
+}
+.link-back-background ul li{
+    position: absolute;
+  left: 14px;
+  top: 7px;
+}
+.link-back-background ul li a{
+    text-decoration: none;
+}

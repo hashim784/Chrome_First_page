@@ -1,0 +1,49 @@
+
+.text_color {
+  background-color: #00ff01;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+.time_wrapper {
+  position: relative;
+}
+#time {
+  text-shadow: 0 0 40px #3bac2c;
+  font-size: 69px;
+}
+#sec {
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    left: 7px;
+}
+#mid {
+    position: relative;
+    top: -37px;
+    right: 15px;
+    font-size: 21px;
+}
+.day_wrapper {
+  display: flex;
+  position: relative;
+  left: -190px;
+  /* justify-content: space-between; */
+}
+.day_wrapper span {
+  font-size: 29px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+#showDate {
+  position: relative;
+  left: 62px;
+  font-size: 18px;
+  top: 5px;
+}
+.container{
+    width: 232px;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+}
