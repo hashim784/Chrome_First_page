@@ -7,7 +7,9 @@
 }
 
 .background-img video {
-    width: 1263px;
+     overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 100%;
 }
 
 .logo img {
