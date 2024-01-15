@@ -115,6 +115,13 @@ padding-left: 5px;
 #Text-Youtube{
     color: #ffd700e5;
 }
+#whatsapp{
+    width: 62px;
+  border-radius: 34%;
+}
+#Text-whatsapp{
+    color: #ffd700e5;
+}
 #ChatGpt{
     width: 52px;
   height: 45px;
